@@ -111,13 +111,13 @@
 // });
 
 //1
-// setInterval(() => {
-//   console.log("Salom");
-// }, 5000);
+setInterval(() => {
+  console.log("Salom");
+}, 5000);
 
-// console.log(setInterval);
+console.log(setInterval);
 
-//2
+// // 2;
 // const colors = ["red", "yellow", "green"];
 // let index = 0;
 
@@ -126,7 +126,7 @@
 //   index = (index + 1) % colors.length;
 // }, 1000);
 
-//3
+// 3;
 // let count = 0;
 // let timer = null;
 
@@ -135,16 +135,16 @@
 //     timer = setInterval(() => {
 //       count++;
 //       document.getElementById("time").textContent = count;
-//     }, 1000);
+//     }, 500);
 //   }
 // }
 
 // function stop() {
 //   clearInterval(timer);
 //   timer = null;
-// }
+// }//ustoz bu ishladi
 
-//4
+// 4;
 // setInterval(() => {
 //   const now = new Date();
 
@@ -153,19 +153,20 @@
 //   const s = String(now.getSeconds()).padStart(2, "0");
 
 //   document.getElementById("clock").textContent = `${h}:${m}:${s}`;
-// }, 1000);
+// }, 1000);//bu ham hozirgi vatni kursatayapdi fatat 10 soniyadan sung
 
-//5
-let isOn = false;
+// 5
+// let isOn = false;
 
-document.getElementById("btn").onclick = function () {
-  isOn = !isOn;
+// document.getElementById("btn").onclick = function () {
+//   isOn = !isOn;
 
-  if (isOn) {
-    document.body.style.background = "yellow";
-    this.textContent = "Svet yondi";
-  } else {
-    document.body.style.background = "white";
-    this.textContent = "Svet ochdi";
-  }
-};
+//   if (isOn) {
+//     document.body.style.background = "yellow";
+//     this.textContent = "Svet yondi";
+//   } else {
+//     document.body.style.background = "white";
+//     this.textContent = "Svet ochdi";
+//   }
+// };
+// bu ham buttoni bosganda sariq yonib uchayapdi
